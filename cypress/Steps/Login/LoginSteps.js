@@ -12,7 +12,6 @@ Given('acessar a pagina de login', () => {
 
 When('informar credenciais validas', () => {
 	loginPage.form(user)
-	console.log(user.login)
 });
 
 When('clicar em login', () => {
